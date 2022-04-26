@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CardMarketPriceMgmnt
+{
+    public static class RoboAppKeyConst
+    {
+        public static CardMarkAppToken cardMarkAppToken = new CardMarkAppToken(
+            appName: "PriceUpdater",
+            appType: "Dedicated",
+            appToken: "xxx",
+            appSecret: "xxx",
+            accessToken: "xxx",
+            accessTokenSecrets: "xxx");
+        
+    }
+}
